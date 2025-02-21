@@ -857,8 +857,8 @@ void WIFI_Init()
     stdio_init_all();  // Inicializa a saída padrão
     sleep_ms(10000);   // Tempo de espera para abrir o terminal
 
-    char ssid[64] = "AGUIA 2.4";
-    char password[64] = "Leticia150789";
+    char ssid[64] = "LOGIN";
+    char password[64] = "PASSWORD";
 
     // Inicializa o Wi-Fi
     if (cyw43_arch_init()) {
